@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nothing{
+     background-color: #FAF3E3;
+     padding:110px;
+     height: 50px;
+     display: flex;
+     justify-content: space-evenly;
+    
+
+}
+
+#box1{
+    height:170px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    bottom: 150px;
+    background-image: url(food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 10px 10px rgb(203, 161, 161);
+    
+}
+
+#box2{
+    height:170px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    bottom: 150px;
+    background-image: url(food3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 10px 10px rgb(203, 161, 161);
+}
+
+#box3{
+    height:170px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    bottom: 150px;
+    background-image: url(food4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 10px 10px rgb(203, 161, 161);
+}
+
+
+#box4{
+    height:170px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    bottom: 150px;
+    background-image: url(food5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 10px 10px rgb(203, 161, 161);
+}
+
+#box5{
+    height:170px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    bottom: 150px;
+    background-image: url(food6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 10px 10px rgb(203, 161, 161);
+}
+#box6{
+    height: 30px;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center ;
+    justify-content: space-between;
+
+}
+.fa-instagram{
+    font-size: 35px;
+}
+.fa-facebook{
+    font-size: 35px;
+}
+.fa-linkedin{
+    font-size: 35px;
+}
+.fa-whatsapp{
+    font-size: 35px;
+}
+.fa-envelope{
+    font-size: 35px;
+}
+.eat{
+    height: 200px;
+    width: 400px;
+    background-color: #FAF3E3;
+    position: relative;
+    left: 150px;
+    background-image: url(eat_repeat-removebg-preview.png);
+    background-size: cover;
+    
+}
+#icon{
+    position: relative;
+    left: 500px;
+    bottom: -20px;
+
+}
+.icon-social{
+    height: 50px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:2;
+}
+span{
+    color: #F28E38;
+        
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f67c1a;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li { 
+margin: 10 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #FAF3E3;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    position: relative;
+    left: 20px;
+    color: #333;
+    line-height: 1.2;
+}
+
+.hero.highlight {
+    color: #F28E38;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 16px;
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #F28E38;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+.hero-image img {
+    display:block;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: 20px 10px 5px grey;    
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f67c1a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1bd443;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu {
+    padding: 2cap;
+    text-align: center;
+    
+}
+.menuhai{
+    border: solid;
+    height: 50px;
+}
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(26, 2, 2, 0);
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.logo-menu{
+    height: 200px;
+    width: 300px;
+    background-image: url(eat_repeat-removebg-preview.png);
+    background-size: cover;
+    
+    position: relative;
+    left: 600px;
+    bottom: 750px;
+}
+.reservation {
+    padding: 20px;
+    text-align: center;
+    background-color:  #FAF3E3;
+    height: 700px;
+}
+
+.reservation h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.reservation form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reservation form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.reservation form input, 
+.reservation form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow:10px 10px 5px gray;
+    border-radius: 25px;
+}
+
+.reservation form button {
+    padding: 10px 250px;
+    background-color: #f67c1a;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-family: fantasy;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+
+.reservation form button:hover {
+    background-color: #9bdca0;
+    
+}
+
+.about {
+    padding: 20px;
+    height: 700px;
+    text-align: center;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+};
+.about h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 22px;
+    color: black;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #f67c1a;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #000;
+}
+
+/* Menu Page Styles */
+.menu {
+    padding: 20px;
+    text-align: center;
+    background-color: #FAF3E3;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    font-size: 20px;
+    color: #f67c1a;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.aboutus{
+    text-decoration:underline;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Eat and Repeat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">EAT AND REPEAT</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Book Table</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="reservation">
+        <h2>Your Reservation</h2>
+        <form id="reservationForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="request">Your Request</label>
+            <textarea id="request" name="request"></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <div id="box6">
+
+    </div>
+    
+    <div id="box6">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>  
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-regular fa-envelope"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <footer>
+        <p>&copy; 2024 EAT AND REPEAT. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to handle form submission -->
+    <script>
+        document.getElementById('reservationForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting
+            alert('YOUR TABLE IS BOOKED \n ENJOY YOUR DISHES WHEN YOU ARE THERE'); // Show the popup message
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.about{
+    font-family: cursive;
+}
+.nothing{
+    background-color: antiquewhite;
+    padding: 150px;
+}
+.abtlogo{
+    height: 200px;
+    width: 270px;
+    background-color: antiquewhite;
+    background-image: url(eat_repeat-removebg-preview.png);
+    background-size:cover;
+    position: relative;
+    top: 50px   ;
+    left: 600px;
+    
+}
